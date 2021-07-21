@@ -20,7 +20,7 @@ describe('UsersController', () => {
 
   it('should be get Value', () => {
     const userNotNull = controller.getUsers;
-    expect(userNotNull.length).toEqual(0);
+    expect(userNotNull.length).toEqual(1);
   });
 
   it('should be get ById 0 Bird', () => {
